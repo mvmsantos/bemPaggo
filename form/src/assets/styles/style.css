@@ -1,0 +1,141 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+.form-bg {
+	background: blueviolet;
+	width: 100vw;
+	height: 100vh;
+}
+
+.form {
+	background: #f0f0f0;
+	width: 400px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 5px;
+	box-shadow: 0 0 0.5em;
+	overflow: hidden;
+	z-index: 0;
+}
+
+p {
+	font-weight: 600;
+}
+
+.form-about {
+	padding: 20px;
+}
+
+.form-about h2 {
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+.languages {
+	margin-bottom: 20px;
+}
+
+.languages-input input {
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+
+.languages-input label {
+	margin-left: 5px;
+}
+
+.header-bg {
+	background: #313879;
+	width: 600px;
+	height: 600px;
+	border-radius: 100%;
+	position: absolute;
+	top: -410px;
+	left: -100px;
+	z-index: -1;
+}
+
+.header {
+	color: #fff;
+	font-weight: 400;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	z-index: 1;
+}
+
+.header img {
+	width: 150px;
+	height: 150px;
+}
+
+.letters {
+	font-size: 20px;
+	font-weight: 100;
+	padding-bottom: 20px;
+}
+
+.letters span {
+	font-weight: bold;
+	display: block;
+}
+
+.stickers {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.stickers button {
+	border: none;
+	background-color: #313879;
+	color: #fff;
+	font-size: 24px;
+	font-weight: bold;
+	width: 30px;
+	height: 30px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.stickers input {
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 50px;
+	text-align: center;
+	border-radius: 4px;
+	background-color: #d8e1e6;
+	border: 2px solid #a2a6b6;
+}
+
+.observations {
+	width: 100%;
+	padding: 10px 0 80px 10px;
+	background-color: #d8e1e6;
+	border-radius: 5px;
+	border-color: #999aac;
+}
+
+.btn-submit-bg {
+	background-color: #d8e1e6;
+	padding: 20px;
+	text-align: right;
+	border-radius: 0 0 5px 5px;
+}
+
+.btn-submit {
+	border: none;
+	background-color: #313879;
+	color: #fff;
+	padding: 10px 32px;
+	font-weight: bold;
+	border-radius: 5px;
+	cursor: pointer;
+}
