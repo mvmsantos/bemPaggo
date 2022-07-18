@@ -2,7 +2,7 @@
 
 ## Project setup in yarn
 ```
-Welcome my challange
+Welcome to my challange
 ```
 
 ### Customize configuration
